@@ -1,0 +1,73 @@
+.flexContenedor{
+  display: flex;
+}
+
+.divIzq{
+width: 70%;
+background-color: #d1e5e4;
+}
+
+.divDer{
+width: 30%;
+}
+
+#gridContenedorArea{
+  display: grid;
+  grid-template-areas:'header1 header2 header3'
+                      'navGlobal1 navGlobal2 navGlobal3'
+                      'page1 page2 page3';
+  gap: 20px;
+}
+
+.header1{
+  grid-area: header1;
+}
+
+.header2{
+  grid-area: header2;
+}
+
+.header3{
+  grid-area: header3;
+}
+
+.navGlobal1{
+  grid-area: navGlobal1;
+}
+
+.navGlobal2{
+  grid-area: navGlobal2;
+}
+
+.navGlobal3{
+  grid-area: navGlobal3;
+}
+
+.page1{
+  grid-area: page1;
+}
+
+.page2{
+  grid-area: page2;
+}
+
+.page3{
+  grid-area: page3;
+}
+
+.card{
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin: 20px;
+}
+
+.footerContenedor{
+  display: flex;
+  background-color: #3a3f52;
+  padding: 20px;
+  margin: 20px;
+}
+
+li{
+  list-style: none;
+}
